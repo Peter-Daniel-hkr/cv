@@ -43,12 +43,6 @@ body {
   margin-left: 300px;
 }
 
-/* .profile img {
-  width: 100%;
-  border-radius: 50%;
-  border: 8px solid #002333;
-} */
-
 .name {
   font-size: 2rem;
   color: white;
@@ -342,17 +336,44 @@ ul .bullet {
   .main-content {
     grid-template-columns: repeat(1, 1fr);
   }
-  .profile img {
-    width: 40%;
-  }
 }
+
 @media screen and (max-width: 700px) {
   .profile img {
     width: 60%;
+  }
+  .image {
+    margin-left: 250px;
+    object-fit: cover;
   }
 }
 @media screen and (max-width: 390px) {
   .name {
     font-size: 1.5rem;
+  }
+  .image {
+    margin-left: 250px;
+    object-fit: cover;
+  }
+}
+
+/* ipad */
+@media (min-width: 701px) and (max-width: 1024px) and (orientation: portrait) {
+  .image {
+    margin-left: 660px;
+    object-fit: cover;
+  }
+  .name {
+    margin-left: 140px;
+  }
+}
+
+/* iphone */
+@media screen and (max-device-width: 600px), screen and (max-width: 480px) {
+  .image {
+    margin-left: 250px;
+  }
+  .name {
+    margin-left: 15px;
   }
 }
