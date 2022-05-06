@@ -1,0 +1,31 @@
+.card {
+  top: 25%;
+  left: -120%;
+  /* background: rgba(245, 245, 245, 0.4); */
+  background: transparent;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  display: inline-block;
+  height: 250px;
+  overflow: hidden;
+  perspective: 1200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translatez(35px);
+  transition: transform 200ms ease-out;
+  width: 175px;
+  text-align: center;
+  margin: 5px;
+}
+
+.card__img {
+  position: relative;
+  height: 100%;
+}
+
+.card__one .card__img {
+  top: 5px;
+  left: -4px;
+  height: 100%;
+}
