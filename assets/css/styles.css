@@ -183,6 +183,21 @@ body {
 .react-progress {
   width: 30%;
 }
+.swedish-progress {
+  width: 75%;
+}
+.english-progress {
+  width: 100%;
+}
+.tigryna-progress {
+  width: 100%;
+}
+.arabic-progress {
+  width: 15%;
+}
+.amharic-progress {
+  width: 50%;
+}
 
 i:hover {
   color: #2d9cdb;
@@ -281,7 +296,11 @@ ul .bullet {
   color: #2d9cdb;
   text-transform: uppercase;
 }
-
+.tl-title-3 {
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  color: #2d9cdb;
+}
 .tl-content {
   border-left: 1px solid #ccc;
   padding-left: 2rem;
